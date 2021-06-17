@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">H5190058_BerkayCatakKotlin</string>
+    <string name="giris_text">GİRİŞ YAP</string>
+    <string name="giris_input_kadi_hint">Kullanıcı adı</string>
+    <string name="giris_input_sifre_hint">Şifre</string>
+    <string name="giris_sartlar_hatirlatici">Gören Duyan\'a giriş yaparak şartlar ve koşulları, gizlilik politikasını kabul etmiş sayılırsın. Şartlar ve koşullar\'ı okumak için:</string>
+    <string name="giris_sartlar_kosllar">Şartlar ve Koşullar</string>
+
+    <string name="category_welcome">HOŞGELDİN</string>
+    <string name="category_subtitle">KATEGORİLER</string>
+
+    <string name="list_title">Kategoriye ait ilanlar:</string>
+
+    <string name="detail_title">Detaylar:</string>
+    <string name="detail_grid">Grid:</string>
+
+    <string name="spinner_artan">İsme göre artan (A-Z):</string>
+    <string name="spinner_azalan">İsme göre azalan (Z-A):</string>
+    <string name="internetYok">İnternet Bağlantınız Yok</string>
+    <string name="internetYokMesaj">Uygulamayı kullanmak için internete bağlanın.</string>
+    <string name="internetYokAButon">İnterneti Aç</string>
+    <string name="internetYokPButon">Kapat</string>
+    <string name="progressMessage">Lütfen bekleyin...</string>
+    <string name="loginError">Kullanıcı adı veya şifre yanlış.</string>
+    <string name="loginErrorBosAlan">Lütfen formda boş alan bırakmayınız!</string>
+    <string name="eminMisiniz">Emin misiniz?</string>
+    <string name="eminMisinizMesaj">Uygulamadan çıkmak istediğinize emin misiniz?</string>
+    <string name="evet">Evet</string>
+    <string name="hayır">Hayır</string>
+
+
+</resources>

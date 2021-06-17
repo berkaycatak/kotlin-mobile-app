@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_logo_padding">40dp</dimen>
+    <dimen name="login_logo_padding_left_right">70dp</dimen>
+
+    <dimen name="login_container_padding_left_right">20dp</dimen>
+    <dimen name="login_container_margin_top">140dp</dimen>
+    <dimen name="login_title_size">20sp</dimen>
+    <dimen name="login_title_spacing">0.1</dimen>
+
+    <dimen name="login_input_size">14sp</dimen>
+
+    <dimen name="category_name_size">24sp</dimen>
+    <dimen name="category_photo_size">120dp</dimen>
+    <dimen name="category_const">70dp</dimen>
+    <dimen name="category_const2">178dp</dimen>
+    <dimen name="category_recy">24dp</dimen>
+    <dimen name="category_photo_right_margin">120sp</dimen>
+    <dimen name="category_welcome_bottom_margin">30sp</dimen>
+    <dimen name="category_subtitle">17sp</dimen>
+
+    <dimen name="detail_image_height">274dp</dimen>
+    <dimen name="detail_detail_height">190dp</dimen>
+    <dimen name="detail_profile_size">50dp</dimen>
+    <dimen name="detail_title_size">18sp</dimen>
+
+    <dimen name="detail_user_size">19sp</dimen>
+    <dimen name="detail_user_margin">30dp</dimen>
+    <dimen name="detail_user_divider">12dp</dimen>
+    <dimen name="detail_article_margin">20dp</dimen>
+    <dimen name="detail_article_size">15sp</dimen>
+    <dimen name="detail_article_line_height">24sp</dimen>
+    <dimen name="detail_subtitle">17sp</dimen>
+    <dimen name="detail_item_margin">10dp</dimen>
+
+    <dimen name="pr_height_width">100dp</dimen>
+
+    <dimen name="item_padding">10dp</dimen>
+    <dimen name="item_tpadding">5dp</dimen>
+
+    <dimen name="list_TitleTextSize">18sp</dimen>
+    <dimen name="category_item_margin">4dp</dimen>
+    <dimen name="category_item_height">200dp</dimen>
+
+</resources>
