@@ -18,11 +18,10 @@ import com.h5190058.berkay_catak_kotlin.R
 import com.h5190058.berkay_catak_kotlin.ui.category.CategoryActivity
 import com.h5190058.berkay_catak_kotlin.ui.list.ListActivity
 import com.h5190058.berkay_catak_kotlin.util.Constants
-import com.h5190058.berkay_catak_kotlin.util.ProgressBar
 import com.h5190058.berkay_catak_kotlin.util.ProgressUtil
 import java.lang.Exception
 
-class LoginActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() { 
 
     var usersViewModel: UsersViewModel?=null
     var userList = ArrayList<UsersModelItem>()
@@ -36,23 +35,24 @@ class LoginActivity : AppCompatActivity() {
         val username = findViewById<EditText>(R.id.editTextUsername)
         val password = findViewById<EditText>(R.id.editTextPassword)
         val button   = findViewById<Button>(R.id.login_button)
-            button.setOnClickListener {
-                try {
-                    progressDialog = ProgressUtil.progressOlustur(this@LoginActivity, resources.getString(R.string.progressMessage))
+        button.setOnClickListener {
+            try {
+                progressDialog = ProgressUtil.progressOlustur(this@LoginActivity, resources.getString(R.string.progressMessage))
 
-                    val usernameText = username.text.toString()
-                    val passwordText = password.text.toString()
+                val usernameText = username.text.toString()
+                val passwordText = password.text.toString()
 
-                    if (usernameText == "" || passwordText == ""){
-                        Toast.makeText(this@LoginActivity, resources.getString(R.string.loginErrorBosAlan) , Toast.LENGTH_SHORT).show()
-                    }else{
-                        getUsers(username.text.toString(), password.text.toString())
-                    }
-
-                }catch (e : Exception){
-                    Log.d("hata", e.toString())
+                if (usernameText == "" || passwordText == ""){
+                    Toast.makeText(this@LoginActivity, resources.getString(R.string.loginErrorBosAlan) , Toast.LENGTH_SHORT).show()
+                    ProgressUtil.progressKapat(progressDialog)
+                }else{
+                    getUsers(username.text.toString(), password.text.toString())
                 }
+
+            }catch (e : Exception){
+                Log.d("hata", e.toString())
             }
+        }
     }
 
 
