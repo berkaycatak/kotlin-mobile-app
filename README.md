@@ -10,8 +10,8 @@ Bu projede Gören Duyan isimli mobil uygulama baz alınarak son kayıp ilanları
 
 
 ## Clean Simple Architecture
-<p style="display:block"><img align="left" width="244px"; src="https://github.com/berkaycatak/KotlinMobilApp/raw/main/images/yapı.png"/></p>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>               
+<p style="display:block"><img src="https://github.com/berkaycatak/KotlinMobilApp/raw/main/images/yapı.png"/></p>
+<br/><br/><br/><br/><br/><br/><br/>  
 
 ## Libraries and Tools 
 <li><a href="https://square.github.io/retrofit/">Retrofit2</a></li>
