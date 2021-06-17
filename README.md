@@ -1,16 +1,16 @@
 ## Zen Pırlanta App 
-<p align="center"><img height="300" width="250" src="https://github.com/berkaycatak/KotlinMobilApp/raw/main/images/small-mavi-logo.png"/></p>
+<p align="center"><img height="300" src="https://github.com/berkaycatak/KotlinMobilApp/raw/main/images/small-mavi-logo.png"/></p>
 
 Bu projede Gören Duyan isimli mobil uygulama baz alınarak son kayıp ilanları listelenmiştir.
 
 ## Outputs
 <p>
-  <img height="400" width="250" src="https://github.com/berkaycatak/KotlinMobilApp/raw/main/screens/Adsız.gif"/>
+  <img height="600" src="https://github.com/berkaycatak/KotlinMobilApp/raw/main/screens/Adsız.gif"/>
 </p>
 
 
 ## Clean Simple Architecture
-<p><img align="left" width="244px"; src="https://github.com/berkaycatak/KotlinMobilApp/raw/main/images/yapı.png"/></p>
+<p style="display:block"><img align="left" width="244px"; src="https://github.com/berkaycatak/KotlinMobilApp/raw/main/images/yapı.png"/></p>
 
 ## Libraries and Tools 
 <li><a href="https://square.github.io/retrofit/">Retrofit2</a></li>
